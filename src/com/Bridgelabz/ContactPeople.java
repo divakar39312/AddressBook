@@ -15,13 +15,13 @@ public class ContactPeople {
 	public ContactPeople(String firstName, String lastName, String address, String city, String state, int zipNo,
 			long phoneNo) {
 		super();
-		this.firstName = firstName;
+		    this.firstName = firstName;
 		this.lastName = lastName;
-		this.address = address;
+		     this.address = address;
 		this.city = city;
-		this.state = state;
+		    this.state = state;
 		this.zipNo = zipNo;
-		this.phoneNo = phoneNo;
+		      this.phoneNo = phoneNo;
 	}
 	
 	public ContactPeople() {
@@ -73,7 +73,7 @@ public class ContactPeople {
 	
 	@Override
 	public String toString() {
-		return "\n people details \n firstName = " + firstName + " \n lastName = " + lastName 
+		return "\n people infor \n firstName = " + firstName + " \n lastName = " + lastName 
 				+ "\n address = " + address + "\n city = "
 				+ city + "\n state = " + state + "\n zipNo = " + zipNo 
 				+ "\n phoneNo = " + phoneNo+"\n-Successfully added "+firstName+" into new contacts\n";
