@@ -4,7 +4,11 @@ import java.util.Scanner;
 
 public class ContactPeople {
 
-	private String firstName,lastName,address,city,state;
+	private String firstName;
+	private String lastName;
+	private String address;
+	private String city;
+	private String state;
 	private int zipNo;
 	private long phoneNo;
 	
@@ -69,7 +73,7 @@ public class ContactPeople {
 	
 	@Override
 	public String toString() {
-		return "\n PErson DETAILS \n firstName = " + firstName + " \n lastName = " + lastName 
+		return "\n people details \n firstName = " + firstName + " \n lastName = " + lastName 
 				+ "\n address = " + address + "\n city = "
 				+ city + "\n state = " + state + "\n zipNo = " + zipNo 
 				+ "\n phoneNo = " + phoneNo+"\n-Successfully added "+firstName+" into new contacts\n";
